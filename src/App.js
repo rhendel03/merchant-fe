@@ -7,6 +7,8 @@ import {
   Route,
 } from "react-router-dom";
 
+import Importer from './pages/Importer';
+
 function App() {
   return (
     <div className="App">
@@ -15,7 +17,7 @@ function App() {
           <MainNav></MainNav>
           <Switch>
             <Route path="/importer">
-              <h1>Importer</h1>
+              <Importer></Importer>
             </Route>
             <Route path="/collection">
               <h1>Collection</h1>
